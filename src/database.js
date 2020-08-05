@@ -198,7 +198,7 @@ export const projects = [
   {
     name: "Profile page v1",
     gitlink: "https://github.com/monint578/monint-profile",
-    link: "#",
+    link: "https://v1.intaite.com",
     codelink: "#",
     gitIconStyle: "fab fa-github",
     linkIconStyle: "fas fa-external-link-alt",
