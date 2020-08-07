@@ -33,7 +33,7 @@ const Skills = () => {
             <h3>Front-end:</h3>
           </div>
           <p className="font-code">
-            HTML & CSS / JavaScript / jQuery / React.js / Bootstrap v3 & v4
+            HTML & CSS / JavaScript / jQuery / React.js / Tailwindcss / Bootstrap v3 & v4
           </p>
         </article>
         <article className="card" data-aos="fade-right">
@@ -63,7 +63,7 @@ const Skills = () => {
             </div>
           </div>
           <p>
-            I have completed{" "}
+            I've' completed{" "}
             <a
               href={udemySrc1}
               className="color-primary"
@@ -93,7 +93,8 @@ const Skills = () => {
             >
               The Web Development w/ Google’s Go course
             </a>{" "}
-            Whith thsi course I should learn more about Golang and MySQL.
+            With this course, I should be able to learn more about Golang and
+            MySQL.
           </p>
         </article>
       </div>

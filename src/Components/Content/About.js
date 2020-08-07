@@ -32,9 +32,9 @@ const About = () => {
             <img src={picture} alt="" />
           </div>
         </div>
-        <div className="about-grid-3">
+        <div className="about-grid-3" data-aos="fade-right">
           {aboutMe.map(({ name, description }) => (
-            <div className="about-card" key={name}>
+            <div className="about-card" key={name} data-aos="fade-right">
               <p className="font-code">{name}</p>
               <p className="sml">{description}</p>
             </div>

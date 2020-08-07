@@ -6,87 +6,6 @@ import NativeImg from "./Public/Img/reactnative.png";
 import JsImg from "./Public/Img/vanillajsprojects.png";
 import RgbImg from "./Public/Img/rgbcolor.png";
 
-// Is used in Experience.js
-export const experience = [
-  {
-    name: "Promotional Representative",
-    where: 'UAB "Partizanas"',
-    when: "2018 07 - 2019 11",
-    descriptions: [
-      "Various product promotion and presentation",
-      "Company representation",
-    ],
-  },
-  {
-    name: "Sales Manager",
-    where: 'UAB "Garlita" knitting manufacturer',
-    when: "2019 05 - 07",
-    descriptions: [
-      "Consulting clients and taking orders for manufacturing step by step",
-      "Revisioning product samples for customers",
-      "Ordering knitwear accessories and yarn for the manufacturing process",
-      "Issuing invoices for customers",
-      "Working with the company's internal software",
-    ],
-  },
-  {
-    name: "Deputy to sewing manager",
-    where: 'UAB "Garlita" knitting manufacturer',
-    when: "2019 04 - 05",
-    descriptions: [
-      "Organizing knitwear accessories for the manufacturing process",
-      "Working with invoices and accounting",
-      "Working with the company's internal software",
-    ],
-  },
-  {
-    name: "Intern",
-    where: 'UAB "Garlita" knitting manufacturer',
-    when: "2019 02 - 04",
-    descriptions: [
-      "I was interning in knitting manufacturing while writing my Bachelor's degree project. While I was an intern I saw every part of the manufacturing and prepared an evaluation of the company for University.",
-    ],
-  },
-  {
-    name: "Administrator of the weaving manufacturing",
-    where: 'UAB "Liningas" weaving manufacturer',
-    when: "2017 06 - 07",
-    descriptions: [
-      "Organizing the company's assortment within an internal system",
-      "Working with invoices, accounting",
-      "Working in the laboratory",
-    ],
-  },
-  {
-    name: "Knitting manufacturing assistance",
-    where: 'UAB "Omniteksas" knitting manufacturer',
-    when: "2016 07 - 08",
-    descriptions: [
-      "Making knitting samples for customers",
-      "Sewing clothing samples",
-    ],
-  },
-];
-
-// Is used in About.js
-export const aboutMe = [
-  {
-    name: "Planner",
-    description:
-      "I love planning even the smallest things, as I think it‘s the most productive way to achieve my goals. I even created a step-by-step plan for this very website!",
-  },
-  {
-    name: "Design at Heart",
-    description:
-      "My favorite thing to do is create something new from scratch. I use Figma for creating website designs. Also in my free time I'm making jewelry, design and sew clothes.",
-  },
-  {
-    name: "Team Player",
-    description:
-      "I understand that one player can't win the game. Communicating and sharing ideas is very important for taking projects to the next level. Thats why I love working in a team environment.",
-  },
-];
-
 //   Is used in Theme.js
 export const themes = [
   {
@@ -179,8 +98,26 @@ export const themes = [
   },
 ];
 
-// Is used in Projects.js
+// Is used in About.js
+export const aboutMe = [
+  {
+    name: "Planner",
+    description:
+      "I love planning even the smallest things, as I think it‘s the most productive way to achieve my goals. I even created a step-by-step plan for this very website!",
+  },
+  {
+    name: "Design at Heart",
+    description:
+      "My favorite thing to do is create something new from scratch. I use Figma for creating website designs. Also in my free time I'm making jewelry, design and sew clothes.",
+  },
+  {
+    name: "Team Player",
+    description:
+      "I understand that one player can't win the game. Communicating and sharing ideas is very important for taking projects to the next level. Thats why I love working in a team environment.",
+  },
+];
 
+// Is used in Projects.js
 export const projects = [
   {
     name: "Toraberu",
@@ -210,7 +147,7 @@ export const projects = [
   },
   {
     name: "Profile page v2",
-    gitlink: "#",
+    gitlink: "https://github.com/monint578/monint-profile-v2",
     link: "#",
     codelink: "#",
     gitIconStyle: "fab fa-github",
@@ -272,6 +209,68 @@ export const projects = [
     prog: "Go / MySQL / React.js / Figma / Docker",
     img: SibusImg,
     descr:
-      "I have started this project because I couldn‘t find a cooking application that would suit my needs, so I decided to make one myself. I plan to create an ingredients calculator for serving size and an ingredient shopping list. Users will also be able to save recipes and leave notes for themselves. Currently, Sibus is in the designing phase. I‘m very excited to keep working on Sibus because it is my biggest project yet.",
+      "I have started this project because I couldn‘t find a cooking application that would suit my needs, so I decided to make one myself. I plan to create an ingredients calculator for serving size and an ingredient shopping list. Users will also be able to save recipes and leave notes for themselves. Currently, Sibus is in the designing phase.",
+  },
+];
+
+// Is used in Experience.js
+export const experience = [
+  {
+    name: "Promotional Representative",
+    where: 'UAB "Partizanas"',
+    when: "2018 07 - 2019 11",
+    descriptions: [
+      "Various product promotion and presentation",
+      "Company representation",
+    ],
+  },
+  {
+    name: "Sales Manager",
+    where: 'UAB "Garlita" knitting manufacturer',
+    when: "2019 05 - 07",
+    descriptions: [
+      "Consulting clients and taking orders for manufacturing step by step",
+      "Revisioning product samples for customers",
+      "Ordering knitwear accessories and yarn for the manufacturing process",
+      "Issuing invoices for customers",
+      "Working with the company's internal software",
+    ],
+  },
+  {
+    name: "Deputy to sewing manager",
+    where: 'UAB "Garlita" knitting manufacturer',
+    when: "2019 04 - 05",
+    descriptions: [
+      "Organizing knitwear accessories for the manufacturing process",
+      "Working with invoices and accounting",
+      "Working with the company's internal software",
+    ],
+  },
+  {
+    name: "Intern",
+    where: 'UAB "Garlita" knitting manufacturer',
+    when: "2019 02 - 04",
+    descriptions: [
+      "I was interning in knitting manufacturing while writing my Bachelor's degree project. While I was an intern I saw every part of the manufacturing and prepared an evaluation of the company for University.",
+    ],
+  },
+  {
+    name: "Administrator of the weaving manufacturing",
+    where: 'UAB "Liningas" weaving manufacturer',
+    when: "2017 06 - 07",
+    descriptions: [
+      "Organizing the company's assortment within an internal system",
+      "Working with invoices, accounting",
+      "Working in the laboratory",
+    ],
+  },
+  {
+    name: "Knitting manufacturing assistance",
+    where: 'UAB "Omniteksas" knitting manufacturer',
+    when: "2016 07 - 08",
+    descriptions: [
+      "Making knitting samples for customers",
+      "Sewing clothing samples",
+    ],
   },
 ];

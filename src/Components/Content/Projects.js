@@ -32,7 +32,7 @@ const Projects = () => {
             <div className="card-projects">
               <div className="card-title">
                 <h3>{name}</h3>
-                <div className="text-right">
+                <div className="card-links">
                   <p className={contentStyle}></p>
                   <a href={gitlink} rel="noopener noreferrer" target="_blank">
                     <i className={gitIconStyle}></i>

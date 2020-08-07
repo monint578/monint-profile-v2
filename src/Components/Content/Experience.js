@@ -23,9 +23,7 @@ const Experience = () => {
               <p className="font-code">{where}</p>
               <div className="accor-grid">
                 <p className="sm">{when}</p>
-                <div className="fas fa-chevron-circle-down">
-                  <span className="accor-btn"></span>
-                </div>
+                <p className="fas fa-chevron-circle-down"></p>
               </div>
             </div>
             <div className="accor-body">
