@@ -108,7 +108,7 @@ export const aboutMe = [
   {
     name: "Design at Heart",
     description:
-      "My favorite thing to do is create something new from scratch. I use Figma for creating website designs. Also in my free time I'm making jewelry, design and sew clothes.",
+      "My favorite thing to do is create something new from scratch. I use Figma for creating website designs. Also in my free time, I'm making jewelry, design, and sew clothes.",
   },
   {
     name: "Team Player",
@@ -182,7 +182,7 @@ export const projects = [
     prog: "JavaScript",
     img: JsImg,
     descr:
-      "I wanted to keep pushing myself forward and continue learning JavaScript. This collection contains a lot on single-purpose components that were fun to create and may be handy in the future.",
+      "I wanted to keep pushing myself forward and continue learning JavaScript. This collection contains a lot on single-purpose components that were fun to create and maybe handy in the future.",
   },
   {
     name: "RGB color guessing game",

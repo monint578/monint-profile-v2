@@ -3,7 +3,7 @@ import picture from "../../Public/Img/picture.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import {aboutMe} from "../../database";
+import { aboutMe } from "../../database";
 
 const About = () => {
   useEffect(() => {
@@ -20,8 +20,8 @@ const About = () => {
           <p>
             I‘m a self-taught web developer currently learning front-end and
             back-end programming. I'm mainly focused on the front-end, but I
-            understand that true apps require some back-end knowledge as well. I
-            have started my career in the textile manufacturing sector but soon
+            understand that true apps require some back-end knowledge as well.
+            I've started my career in the textile manufacturing sector but soon
             I realized that I wanted to learn and grow more. Such opportunities
             in this sector were limited. So I shifted my focus to programming
             for the web. I‘ve started learning the basics of web development on

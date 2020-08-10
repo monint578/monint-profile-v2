@@ -72,7 +72,7 @@ const Skills = () => {
             >
               The Web Developer Bootcamp
             </a>{" "}
-            course on Udemy. In this course I've learned about JavaScript,
+            course on Udemy. In this course, I've learned about JavaScript,
             jQuery, Node.js, Express, MongoDB, Git & Github.
           </p>
         </article>
